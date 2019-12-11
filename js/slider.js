@@ -38,12 +38,3 @@ var divs = $('div[id^="text-"]').hide(),
     i = ++i % divs.length;
 
 })();
-
-$('.tooltip').tooltipster({
-    theme: 'tooltipster-shadow'
-});
-
-
-$(document).ready(function() {
-            $('.tooltip').tooltipster();
-});
